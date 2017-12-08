@@ -1,0 +1,26 @@
+title: Novi Pogled
+email: milan@simplyguide.me
+description: >- # this means to ignore newlines until "baseurl:"
+  Dreambox Design is an agency with a vision
+  to enable every man, woman and child to communicate
+  ove internet in a secure and simple fashion.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  
+#livereload: true
+#reload_port: 8081
+incremental: true
+
+page_gen:
+  - data: 'member'
+    template: 'profile'
+    name: 'name'
+    dir: 'people' 
+
